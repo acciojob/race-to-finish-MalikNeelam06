@@ -24,5 +24,5 @@ let promises = [
 
 Promise.any(promises).then((value) => {
   // Update the text of the output div here
-	output.innerText=value;
+	output.innerText="value";
 });
